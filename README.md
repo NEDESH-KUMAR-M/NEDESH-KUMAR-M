@@ -1,12 +1,12 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=cylinder&color=0:000000,50:0a0a0a,100:000000&height=200&section=header&text=NEDESH%20KUMAR%20M&fontSize=52&fontColor=00FFB3&animation=fadeIn&fontAlignY=55&stroke=00FFB3&strokeWidth=1"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&color=0:0a0a0a,30:0d1f1a,60:0a1a14,100:000000&height=220&section=header&text=NEDESH%20KUMAR%20M&fontSize=56&fontColor=00FFB3&animation=fadeIn&fontAlignY=60&stroke=00FFB3&strokeWidth=0.5&desc=AI%20%2F%20ML%20Engineer&descSize=15&descAlignY=78&descFontColor=55eebb"/>
 
 </div>
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=16&pause=1200&color=00FFB3&center=true&vCenter=true&width=600&lines=AI+%2F+ML+Engineer;RAG+·+LLMs+·+Distributed+Systems;LeetCode+1900%2B+·+Top+5%25+Global;Final+Year+·+Available+Now" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=14&pause=1800&color=00FFB3&center=true&vCenter=true&width=520&lines=I+don't+build+models.+I+build+things+that+ship.;RAG+·+LLMs+·+Distributed+Systems+·+Python;LeetCode+1900%2B+·+Top+5%25+on+Earth+🌍;B.Tech+AI+%26+DS+·+CGPA+8.78+·+Chennai" />
 
 </div>
 
@@ -14,11 +14,7 @@
 
 <div align="center">
 
-[![](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/NEDESH-KUMAR-M)&nbsp;
-[![](https://img.shields.io/badge/GitHub-161b22?style=flat-square&logo=github&logoColor=white)](https://github.com/NEDESH-KUMAR-M)&nbsp;
-[![](https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:nedeshkumar.m@gmail.com)&nbsp;
-[![](https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black)](https://leetcode.com)&nbsp;
-![](https://komarev.com/ghpvc/?username=NEDESH-KUMAR-M&color=00FFB3&style=flat-square&label=views)
+[![LinkedIn](https://img.shields.io/badge/─%20LinkedIn%20─-00FFB3?style=flat-square&labelColor=0a0a0a&color=0a0a0a&logoColor=00FFB3&logo=linkedin)](https://linkedin.com/in/NEDESH-KUMAR-M)&ensp;[![GitHub](https://img.shields.io/badge/─%20GitHub%20─-00FFB3?style=flat-square&labelColor=0a0a0a&color=0a0a0a&logoColor=00FFB3&logo=github)](https://github.com/NEDESH-KUMAR-M)&ensp;[![Mail](https://img.shields.io/badge/─%20Mail%20─-00FFB3?style=flat-square&labelColor=0a0a0a&color=0a0a0a&logoColor=00FFB3&logo=gmail)](mailto:nedeshkumar.m@gmail.com)&ensp;[![LeetCode](https://img.shields.io/badge/─%20LeetCode%20─-00FFB3?style=flat-square&labelColor=0a0a0a&color=0a0a0a&logoColor=FFA116&logo=leetcode)](https://leetcode.com/u/NEDESH_KUMAR_M/)
 
 </div>
 
@@ -30,18 +26,16 @@
 
 <div align="center">
 
+### ⌗ &nbsp;`COMPETITIVE PROGRAMMING`&nbsp; ⌗
+
+<br/>
+
+[![LeetCode Stats](https://leetcard.jacoblin.cool/NEDESH_KUMAR_M?theme=dark&font=JetBrains+Mono&border=0&radius=6&width=500&ext=heatmap)](https://leetcode.com/u/NEDESH_KUMAR_M/)
+
+<br/>
+
 ```
-┌─────────────────────────────────────────────────────────────────┐
-│                                                                 │
-│   B.Tech · AI & Data Science · CGPA 8.78                        │
-│   Chennai Institute of Technology · 2023 – 2027                │
-│                                                                 │
-│   Python  ·  TensorFlow  ·  RAG  ·  LLMs  ·  FAISS             │
-│   Flask   ·  Docker      ·  GCP  ·  SQL   ·  Git               │
-│                                                                 │
-│   🟢  Open to AI / ML Engineer roles                            │
-│                                                                 │
-└─────────────────────────────────────────────────────────────────┘
+  Contest Rating  ·  1900+  ·  Top 5% globally  ·  750+ problems solved
 ```
 
 </div>
@@ -54,13 +48,17 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=NEDESH-KUMAR-M&show_icons=true&theme=github_dark&hide_border=true&bg_color=00000000&title_color=00FFB3&icon_color=00FFB3&text_color=aaaaaa&ring_color=00FFB3&hide=stars" height="160"/>
-&nbsp;&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NEDESH-KUMAR-M&layout=compact&theme=github_dark&hide_border=true&bg_color=00000000&title_color=00FFB3&text_color=aaaaaa&langs_count=6" height="160"/>
+### ⌗ &nbsp;`GITHUB`&nbsp; ⌗
+
+<br/>
+
+<img src="https://github-readme-stats.vercel.app/api?username=NEDESH-KUMAR-M&show_icons=true&hide_border=true&bg_color=0d1117&title_color=00FFB3&icon_color=00FFB3&text_color=888888&ring_color=00FFB3&hide=stars,issues&count_private=true&include_all_commits=true" height="155"/>
+&nbsp;
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=NEDESH-KUMAR-M&hide_border=true&background=0d1117&ring=00FFB3&fire=00FFB3&currStreakLabel=00FFB3&sideLabels=555555&dates=444444&currStreakNum=ffffff&sideNums=888888" height="155"/>
 
 <br/><br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=NEDESH-KUMAR-M&theme=github-dark-blue&hide_border=true&background=00000000&ring=00FFB3&fire=00FFB3&currStreakLabel=00FFB3&sideLabels=555&dates=444&currStreakNum=ffffff&sideNums=aaaaaa" height="150"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=NEDESH-KUMAR-M&bg_color=0d1117&color=00FFB3&line=00FFB3&point=ffffff&area_color=00FFB315&area=true&hide_border=true&radius=4&custom_title=contribution+graph" width="88%"/>
 
 </div>
 
@@ -72,26 +70,27 @@
 
 <div align="center">
 
-```
-  COMPETITIVE PROGRAMMING
-  ───────────────────────
-  LeetCode   1900+   Top 5% globally   750+ problems
-  CodeChef   ★★      2-star
-```
-
-[![LeetCode](https://leetcard.jacoblin.cool/NEDESH-KUMAR-M?theme=dark&font=JetBrains+Mono&border=0&radius=4)](https://leetcode.com/NEDESH-KUMAR-M)
-
-</div>
+### ⌗ &nbsp;`LANGUAGES & TOOLS`&nbsp; ⌗
 
 <br/>
 
----
+<img src="https://skillicons.dev/icons?i=python,tensorflow,pytorch,opencv&theme=dark&perline=4" />
 
-<br/>
+<br/><br/>
 
-<div align="center">
+<img src="https://skillicons.dev/icons?i=flask,docker,gcp,git&theme=dark&perline=4" />
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=NEDESH-KUMAR-M&bg_color=00000000&color=00FFB3&line=00FFB3&point=ffffff&area_color=00FFB320&area=true&hide_border=true&radius=4" width="90%"/>
+<br/><br/>
+
+<img src="https://skillicons.dev/icons?i=mysql,postgres,github,vscode&theme=dark&perline=4" />
+
+<br/><br/>
+
+```
+  Python  ·  TensorFlow  ·  PyTorch  ·  Scikit-learn  ·  Keras  ·  OpenCV
+  Flask   ·  FastAPI     ·  Docker   ·  GCP           ·  Git    ·  CI/CD
+  MySQL   ·  PostgreSQL  ·  FAISS    ·  OpenAI API    ·  LLMs   ·  RAG
+```
 
 </div>
 
@@ -109,12 +108,8 @@
 
 <br/>
 
----
-
-<br/>
-
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:0a0a0a&height=80&section=footer&fontColor=00FFB3&animation=fadeIn"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&color=0:000000,60:0a1a14,100:0a0a0a&height=100&section=footer&animation=fadeIn&reversal=true"/>
 
 </div>
