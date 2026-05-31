@@ -18,14 +18,14 @@ Welcome to my GitHub — I'm Nedesh Kumar M 👋, a 4th-year AI & DS undergrad  
 <table>
   <tr>
     <td align="center" width="96">
-        <img src="https://techstack-generator.vercel.app/csharp-icon.svg" alt="icon" width="65" height="65" />
-      <br>C#
-    </td>
-    <td align="center" width="96">
       <a href="#macropower-tech">
         <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="icon" width="65" height="65" />
       </a>
       <br>Python
+    <td align="center" width="96">
+        <img src="https://techstack-generator.vercel.app/csharp-icon.svg" alt="icon" width="65" height="65" />
+      <br>C#
+    </td>
     </td>
     <td align="center" width="96">
         <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="icon" width="65" height="65" />
@@ -53,7 +53,7 @@ Welcome to my GitHub — I'm Nedesh Kumar M 👋, a 4th-year AI & DS undergrad  
     </td>
     <td align="center" width="96">
         <img src="https://techstack-generator.vercel.app/nginx-icon.svg" alt="icon" width="50" height="50" />
-      <br>Nginx
+      <br>flask
     </td>
   </tr>
   <tr>
@@ -83,7 +83,7 @@ Welcome to my GitHub — I'm Nedesh Kumar M 👋, a 4th-year AI & DS undergrad  
     </td>
         <td align="center" width="96">
         <img src="https://skillicons.dev/icons?i=jquery" width="48" height="48" alt="jquery" />
-      <br>JQuery
+      <br>tensorflow
     </td>
         <td align="center" width="96">
         <img src="https://skillicons.dev/icons?i=postgres" width="48" height="48" alt="jquery" />
@@ -91,45 +91,45 @@ Welcome to my GitHub — I'm Nedesh Kumar M 👋, a 4th-year AI & DS undergrad  
     </td>
             <td align="center" width="96">
         <img src="https://skillicons.dev/icons?i=dotnet" width="48" height="48" alt="ASP.NET Core" />
-      <br>ASP.NET
+      <br>Langchain
     </td>
   </tr>
    <tr>
     <td align="center" width="96">
         <img src="https://skillicons.dev/icons?i=redis" width="48" height="48" alt="Redis" />
-      <br>Redis
+      <br>Numpy
     </td>
         <td align="center" width="96">
         <img src="https://skillicons.dev/icons?i=postman" width="48" height="48" alt="Postman" />
-      <br>Postman
+      <br>Skitlearn
     </td>
             <td align="center" width="96">
         <img src="https://skillicons.dev/icons?i=linux" width="48" height="48" alt="Linux" />
-      <br>Linux
+      <br>keras
     </td>
     <td align="center" width="96">
         <img src="https://skillicons.dev/icons?i=dart" width="48" height="48" alt="dart" />
-      <br>Dart
+      <br>pandas
     </td>
     <td align="center" width="96">
         <img src="https://skillicons.dev/icons?i=rabbitmq" width="48" height="48" alt="dart" />
-      <br>RabbitMQ
+      <br>collab
     </td>
     <td align="center" width="96">
         <img src="https://skillicons.dev/icons?i=sentry" width="48" height="48" alt="dart" />
-      <br>sentry
+      <br>mysql
     </td>
     <td align="center" width="96">
         <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Celery_logo.png" width="48" height="48" alt="dart" />
-      <br>Celery
+      <br>java
     </td>
     <td align="center" width="96">
         <img src="https://docusaurus.io/img/docusaurus_keytar.svg" width="48" height="48" alt="dart" />
-      <br>Docusaurus
+      <br>langgraph
     </td>
     <td align="center" width="96">
         <img src="https://bruhin.software/img/logos/pytest.svg" width="40" height="40" alt="dart" />
-      <br>Pytest
+      <br>Dialogflow
     </td>
   </tr>
  <tr>
