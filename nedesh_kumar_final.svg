@@ -1,0 +1,337 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="500" viewBox="0 0 1500 500">
+<defs>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&amp;family=Share+Tech+Mono&amp;display=swap');
+
+/* Matrix fall keyframes */
+@keyframes mf1{0%{transform:translateY(-120px);opacity:0}5%{opacity:1}90%{opacity:0.6}100%{transform:translateY(520px);opacity:0}}
+@keyframes mf2{0%{transform:translateY(-120px);opacity:0}8%{opacity:0.8}90%{opacity:0.4}100%{transform:translateY(520px);opacity:0}}
+@keyframes mf3{0%{transform:translateY(-120px);opacity:0}6%{opacity:0.9}88%{opacity:0.5}100%{transform:translateY(520px);opacity:0}}
+@keyframes mf4{0%{transform:translateY(-120px);opacity:0}10%{opacity:0.7}85%{opacity:0.3}100%{transform:translateY(520px);opacity:0}}
+@keyframes mf5{0%{transform:translateY(-120px);opacity:0}7%{opacity:1}92%{opacity:0.4}100%{transform:translateY(520px);opacity:0}}
+
+/* Glitch on name */
+@keyframes glitch1{0%,88%,100%{transform:translate(0,0);opacity:0}89%{transform:translate(-5px,2px);opacity:1}90.5%{transform:translate(5px,-2px);opacity:1}92%{transform:translate(-3px,1px);opacity:0.6}93%{transform:translate(0,0);opacity:0}}
+@keyframes glitch2{0%,82%,100%{transform:translate(0,0);opacity:0}83%{transform:translate(5px,3px);opacity:1}84.5%{transform:translate(-5px,-3px);opacity:1}86%{transform:translate(3px,-1px);opacity:0.6}87%{transform:translate(0,0);opacity:0}}
+
+/* Name flicker */
+@keyframes flicker{0%,95%,100%{opacity:1}96%{opacity:0.5}97.5%{opacity:1}98.5%{opacity:0.6}99%{opacity:1}}
+
+/* Scanline */
+@keyframes scan{0%{transform:translateY(-8px)}100%{transform:translateY(508px)}}
+
+/* Fade ins */
+@keyframes fadeInUp{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
+
+/* Divider expand */
+@keyframes expandDiv{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+
+/* Cursor blink */
+@keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
+
+/* Role cycling */
+@keyframes role1{0%{opacity:0}5%{opacity:1}28%{opacity:1}33%{opacity:0}100%{opacity:0}}
+@keyframes role2{0%{opacity:0}33%{opacity:0}38%{opacity:1}61%{opacity:1}66%{opacity:0}100%{opacity:0}}
+@keyframes role3{0%{opacity:0}66%{opacity:0}71%{opacity:1}94%{opacity:1}99%{opacity:0}100%{opacity:0}}
+@keyframes role4{0%{opacity:0}33%{opacity:0}38%{opacity:1}61%{opacity:1}66%{opacity:0}100%{opacity:0}}
+
+/* Glow pulse */
+@keyframes glowPulse{0%,100%{filter:url(#glow)}50%{filter:url(#glowStrong)}}
+</style>
+
+<filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+  <feGaussianBlur stdDeviation="5" result="blur"/>
+  <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+<filter id="glowStrong" x="-30%" y="-80%" width="160%" height="260%">
+  <feGaussianBlur stdDeviation="14" result="blur"/>
+  <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+<filter id="glowHalo" x="-40%" y="-100%" width="180%" height="300%">
+  <feGaussianBlur stdDeviation="22" result="blur"/>
+  <feMergeNode in="blur"/>
+</filter>
+
+<clipPath id="clipTop">
+  <rect x="0" y="100" width="1500" height="65"/>
+</clipPath>
+<clipPath id="clipBot">
+  <rect x="0" y="185" width="1500" height="65"/>
+</clipPath>
+
+<linearGradient id="divGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+  <stop offset="0%" stop-color="#0d1117"/>
+  <stop offset="30%" stop-color="#00ff9d"/>
+  <stop offset="70%" stop-color="#00ff9d"/>
+  <stop offset="100%" stop-color="#0d1117"/>
+</linearGradient>
+<linearGradient id="scanGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+  <stop offset="0%" stop-color="#00ff9d" stop-opacity="0"/>
+  <stop offset="50%" stop-color="#00ff9d" stop-opacity="0.18"/>
+  <stop offset="100%" stop-color="#00ff9d" stop-opacity="0"/>
+</linearGradient>
+</defs>
+
+<!-- BG -->
+<rect width="1500" height="500" fill="#0d1117"/>
+
+<!-- ═══════════════════════════════════
+     MATRIX RAIN — LEFT (8 columns)
+════════════════════════════════════ -->
+<!-- col 20 -->
+<g style="animation:mf1 4.2s -0.3s linear infinite">
+  <text x="20" y="0"  font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.9">ア</text>
+  <text x="20" y="20" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.7">1</text>
+  <text x="20" y="40" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.5">{</text>
+  <text x="20" y="60" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.35">カ</text>
+  <text x="20" y="80" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.2">A</text>
+  <text x="20" y="100" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.1">0</text>
+  <text x="20" y="120" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.05">サ</text>
+</g>
+<!-- col 40 -->
+<g style="animation:mf2 5.6s -2.1s linear infinite">
+  <text x="40" y="0"  font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.9">イ</text>
+  <text x="40" y="20" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.7">B</text>
+  <text x="40" y="40" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.5">ウ</text>
+  <text x="40" y="60" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.35">}</text>
+  <text x="40" y="80" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.2">シ</text>
+  <text x="40" y="100" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.1">C</text>
+</g>
+<!-- col 60 -->
+<g style="animation:mf3 4.8s -1.0s linear infinite">
+  <text x="60" y="0"  font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.9">エ</text>
+  <text x="60" y="20" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.7">D</text>
+  <text x="60" y="40" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.5">オ</text>
+  <text x="60" y="60" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.35">[</text>
+  <text x="60" y="80" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.2">ナ</text>
+  <text x="60" y="100" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.1">2</text>
+</g>
+<!-- col 80 -->
+<g style="animation:mf4 6.1s -3.2s linear infinite">
+  <text x="80" y="0"  font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.9">カ</text>
+  <text x="80" y="20" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.7">E</text>
+  <text x="80" y="40" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.5">キ</text>
+  <text x="80" y="60" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.35">)</text>
+  <text x="80" y="80" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.2">ス</text>
+  <text x="80" y="100" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.1">F</text>
+</g>
+<!-- col 100 -->
+<g style="animation:mf5 5.0s -0.7s linear infinite">
+  <text x="100" y="0"  font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.9">ク</text>
+  <text x="100" y="20" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.7">0</text>
+  <text x="100" y="40" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.5">ケ</text>
+  <text x="100" y="60" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.35">(</text>
+  <text x="100" y="80" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.2">セ</text>
+  <text x="100" y="100" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.1">1</text>
+</g>
+<!-- col 120 -->
+<g style="animation:mf1 4.5s -2.8s linear infinite">
+  <text x="120" y="0"  font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.8">コ</text>
+  <text x="120" y="20" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.6">A</text>
+  <text x="120" y="40" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.4">ソ</text>
+  <text x="120" y="60" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.2">B</text>
+  <text x="120" y="80" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.1">タ</text>
+</g>
+<!-- col 140 -->
+<g style="animation:mf3 5.3s -1.6s linear infinite">
+  <text x="140" y="0"  font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.7">サ</text>
+  <text x="140" y="20" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.5">C</text>
+  <text x="140" y="40" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.3">チ</text>
+  <text x="140" y="60" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.15">D</text>
+  <text x="140" y="80" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.07">テ</text>
+</g>
+<!-- col 160 -->
+<g style="animation:mf2 4.9s -0.4s linear infinite">
+  <text x="160" y="0"  font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.6">シ</text>
+  <text x="160" y="20" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.4">E</text>
+  <text x="160" y="40" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.25">ト</text>
+  <text x="160" y="60" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.1">F</text>
+</g>
+
+<!-- ═══════════════════════════════════
+     MATRIX RAIN — RIGHT (8 columns)
+════════════════════════════════════ -->
+<!-- col 1340 -->
+<g style="animation:mf2 4.9s -0.9s linear infinite">
+  <text x="1340" y="0"  font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.6">ス</text>
+  <text x="1340" y="20" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.4">E</text>
+  <text x="1340" y="40" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.25">ト</text>
+  <text x="1340" y="60" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.1">F</text>
+</g>
+<!-- col 1360 -->
+<g style="animation:mf3 5.1s -1.9s linear infinite">
+  <text x="1360" y="0"  font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.7">セ</text>
+  <text x="1360" y="20" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.5">C</text>
+  <text x="1360" y="40" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.3">ア</text>
+  <text x="1360" y="60" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.15">D</text>
+  <text x="1360" y="80" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.07">コ</text>
+</g>
+<!-- col 1380 -->
+<g style="animation:mf4 6.0s -2.9s linear infinite">
+  <text x="1380" y="0"  font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.8">ア</text>
+  <text x="1380" y="20" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.6">1</text>
+  <text x="1380" y="40" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.4">コ</text>
+  <text x="1380" y="60" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.2">A</text>
+  <text x="1380" y="80" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.1">ス</text>
+</g>
+<!-- col 1400 -->
+<g style="animation:mf1 4.3s -0.6s linear infinite">
+  <text x="1400" y="0"  font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.9">カ</text>
+  <text x="1400" y="20" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.7">B</text>
+  <text x="1400" y="40" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.5">キ</text>
+  <text x="1400" y="60" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.35">0</text>
+  <text x="1400" y="80" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.2">ウ</text>
+  <text x="1400" y="100" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.1">C</text>
+</g>
+<!-- col 1420 -->
+<g style="animation:mf5 5.5s -2.3s linear infinite">
+  <text x="1420" y="0"  font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.9">イ</text>
+  <text x="1420" y="20" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.7">D</text>
+  <text x="1420" y="40" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.5">[</text>
+  <text x="1420" y="60" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.35">ケ</text>
+  <text x="1420" y="80" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.2">E</text>
+  <text x="1420" y="100" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.1">サ</text>
+</g>
+<!-- col 1440 -->
+<g style="animation:mf2 4.7s -1.4s linear infinite">
+  <text x="1440" y="0"  font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.9">エ</text>
+  <text x="1440" y="20" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.7">F</text>
+  <text x="1440" y="40" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.5">オ</text>
+  <text x="1440" y="60" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.35">)</text>
+  <text x="1440" y="80" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.2">ニ</text>
+  <text x="1440" y="100" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.1">2</text>
+</g>
+<!-- col 1460 -->
+<g style="animation:mf3 5.8s -3.4s linear infinite">
+  <text x="1460" y="0"  font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.9">ク</text>
+  <text x="1460" y="20" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.7">A</text>
+  <text x="1460" y="40" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.5">シ</text>
+  <text x="1460" y="60" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.35">(</text>
+  <text x="1460" y="80" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.2">ス</text>
+  <text x="1460" y="100" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.1">1</text>
+</g>
+<!-- col 1480 -->
+<g style="animation:mf1 4.6s -0.2s linear infinite">
+  <text x="1480" y="0"  font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.9">コ</text>
+  <text x="1480" y="20" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.7">B</text>
+  <text x="1480" y="40" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.5">{</text>
+  <text x="1480" y="60" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.35">ケ</text>
+  <text x="1480" y="80" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.2">C</text>
+  <text x="1480" y="100" font-family="monospace" font-size="14" fill="#00ff9d" opacity="0.1">ナ</text>
+</g>
+
+<!-- ═══════════════════════════════════
+     SCANLINE SWEEP
+════════════════════════════════════ -->
+<rect x="0" y="0" width="1500" height="50" fill="url(#scanGrad)"
+  style="animation:scan 6s linear infinite"/>
+
+<!-- ═══════════════════════════════════
+     NAME — halo, glitch, main
+════════════════════════════════════ -->
+
+<!-- Deep halo glow (outermost) -->
+<text x="750" y="236"
+  font-family="'Orbitron',monospace" font-weight="900" font-size="88"
+  fill="#00ff9d" opacity="0.12" text-anchor="middle" letter-spacing="8"
+  filter="url(#glowHalo)"
+  style="animation:flicker 4s infinite">NEDESH KUMAR M</text>
+
+<!-- Glitch layer RED — clips top portion -->
+<text x="750" y="236"
+  font-family="'Orbitron',monospace" font-weight="900" font-size="88"
+  fill="#ff2255" opacity="0.75" text-anchor="middle" letter-spacing="8"
+  clip-path="url(#clipTop)"
+  style="animation:glitch1 3.5s infinite">NEDESH KUMAR M</text>
+
+<!-- Glitch layer CYAN — clips bottom portion -->
+<text x="750" y="236"
+  font-family="'Orbitron',monospace" font-weight="900" font-size="88"
+  fill="#00d4ff" opacity="0.75" text-anchor="middle" letter-spacing="8"
+  clip-path="url(#clipBot)"
+  style="animation:glitch2 3.5s infinite">NEDESH KUMAR M</text>
+
+<!-- Inner glow layer -->
+<text x="750" y="236"
+  font-family="'Orbitron',monospace" font-weight="900" font-size="88"
+  fill="#00ff9d" opacity="0.4" text-anchor="middle" letter-spacing="8"
+  filter="url(#glowStrong)"
+  style="animation:flicker 4s infinite">NEDESH KUMAR M</text>
+
+<!-- Main name -->
+<text x="750" y="236"
+  font-family="'Orbitron',monospace" font-weight="900" font-size="88"
+  fill="#00ff9d" text-anchor="middle" letter-spacing="8"
+  filter="url(#glow)"
+  style="animation:flicker 4s infinite;animation-delay:-1s">NEDESH KUMAR M</text>
+
+<!-- ═══════════════════════════════════
+     DIVIDER
+════════════════════════════════════ -->
+<rect x="375" y="263" width="750" height="1.5" fill="url(#divGrad)"
+  style="transform-origin:750px 263px;animation:expandDiv 1s 0.5s ease both;opacity:0;animation-fill-mode:forwards"/>
+
+<!-- ═══════════════════════════════════
+     ROLE TYPEWRITER TEXT (cycling)
+════════════════════════════════════ -->
+<!-- Roles cycle every 3s, total 9s loop -->
+<text x="722" y="304"
+  font-family="'Share Tech Mono',monospace" font-size="19" fill="#4ade80"
+  text-anchor="middle" letter-spacing="7"
+  style="animation:role1 9s 0s infinite;opacity:0">SOFTWARE ENGINEER</text>
+
+<text x="722" y="304"
+  font-family="'Share Tech Mono',monospace" font-size="19" fill="#4ade80"
+  text-anchor="middle" letter-spacing="7"
+  style="animation:role2 9s 0s infinite;opacity:0">PROBLEM SOLVER</text>
+
+<text x="722" y="304"
+  font-family="'Share Tech Mono',monospace" font-size="19" fill="#4ade80"
+  text-anchor="middle" letter-spacing="7"
+  style="animation:role3 9s 0s infinite;opacity:0">CODE CRAFTSMAN</text>
+
+<!-- Blinking cursor — positioned right after longest role text -->
+<rect x="1017" y="286" width="3" height="22" fill="#00ff9d"
+  style="animation:blink 1s step-end infinite"/>
+
+<!-- ═══════════════════════════════════
+     TAGS ROW
+════════════════════════════════════ -->
+
+<!-- DEV -->
+<g style="animation:fadeInUp 0.7s 1.2s ease both;opacity:0">
+  <rect x="508" y="334" width="78" height="28" rx="3" fill="#00ff9d"/>
+  <text x="547" y="353" font-family="'Share Tech Mono',monospace" font-size="12"
+    fill="#0d1117" text-anchor="middle" letter-spacing="3" font-weight="bold">DEV</text>
+</g>
+
+<!-- { code } -->
+<g style="animation:fadeInUp 0.7s 1.4s ease both;opacity:0">
+  <rect x="598" y="334" width="96" height="28" rx="3" fill="none" stroke="#00ff9d" stroke-width="1" stroke-opacity="0.45"/>
+  <text x="646" y="353" font-family="'Share Tech Mono',monospace" font-size="12"
+    fill="#00ff9d" text-anchor="middle" letter-spacing="2">{ code }</text>
+</g>
+
+<!-- BUILD -->
+<g style="animation:fadeInUp 0.7s 1.6s ease both;opacity:0">
+  <rect x="706" y="334" width="88" height="28" rx="3" fill="#00ff9d"/>
+  <text x="750" y="353" font-family="'Share Tech Mono',monospace" font-size="12"
+    fill="#0d1117" text-anchor="middle" letter-spacing="3" font-weight="bold">BUILD</text>
+</g>
+
+<!-- // create -->
+<g style="animation:fadeInUp 0.7s 1.8s ease both;opacity:0">
+  <rect x="806" y="334" width="110" height="28" rx="3" fill="none" stroke="#00ff9d" stroke-width="1" stroke-opacity="0.45"/>
+  <text x="861" y="353" font-family="'Share Tech Mono',monospace" font-size="12"
+    fill="#00ff9d" text-anchor="middle" letter-spacing="2">// create</text>
+</g>
+
+<!-- DEPLOY -->
+<g style="animation:fadeInUp 0.7s 2.0s ease both;opacity:0">
+  <rect x="928" y="334" width="96" height="28" rx="3" fill="#00ff9d"/>
+  <text x="976" y="353" font-family="'Share Tech Mono',monospace" font-size="12"
+    fill="#0d1117" text-anchor="middle" letter-spacing="3" font-weight="bold">DEPLOY</text>
+</g>
+
+</svg>
