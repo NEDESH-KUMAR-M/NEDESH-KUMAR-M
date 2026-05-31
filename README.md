@@ -2,7 +2,7 @@
 
 <p></p>
 <p align="justify">
-Welcome to my GitHub — I'm Nedesh Kumar M 👋, a 4th-year AI & DS undergrad  who's deeply, embarrassingly, and unapologetically obsessed with AI & Machine Learning — and it's a trait I was built with. For me, learning isn't a habit I built — it's the way I'm wired. And I've solved 800+ LeetCode problems down, and honestly? I'm still just getting started...
+Welcome to my GitHub — I'm Nedesh Kumar M 👋, a final-year AI & DS undergrad  who's deeply, embarrassingly, and unapologetically obsessed with AI & Machine Learning — and it's a trait I was built with. For me, learning isn't a habit I built — it's the way I'm wired. And I've solved 800+ LeetCode problems down, and honestly? I'm still just getting started...
 </p>
 
 ## My favorite tools and technologies ⚙️
@@ -18,7 +18,7 @@ Welcome to my GitHub — I'm Nedesh Kumar M 👋, a 4th-year AI & DS undergrad  
       <br>Python
     <td align="center" width="96">
         <img src="https://techstack-generator.vercel.app/csharp-icon.svg" alt="icon" width="65" height="65" />
-      <br>C#
+      <br>C
     </td>
     </td>
     <td align="center" width="96">
@@ -46,8 +46,8 @@ Welcome to my GitHub — I'm Nedesh Kumar M 👋, a 4th-year AI & DS undergrad  
       <br>Docker
     </td>
     <td align="center" width="96">
-        <img src="https://techstack-generator.vercel.app/nginx-icon.svg" alt="icon" width="50" height="50" />
-      <br>flask
+        <img src="image/Flask.svg" alt="icon" width="50" height="50" />
+      <br>Flask
     </td>
   </tr>
   <tr>
@@ -76,50 +76,50 @@ Welcome to my GitHub — I'm Nedesh Kumar M 👋, a 4th-year AI & DS undergrad  
       <br>Tailwind
     </td>
         <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=jquery" width="48" height="48" alt="jquery" />
-      <br>tensorflow
+        <img src="image/TensorFlow.svg" width="48" height="48" alt="jquery" />
+      <br>Tensorflow
     </td>
         <td align="center" width="96">
         <img src="https://skillicons.dev/icons?i=postgres" width="48" height="48" alt="jquery" />
       <br>PostgreSQL
     </td>
             <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=dotnet" width="48" height="48" alt="ASP.NET Core" />
+        <img src="image/Langchain--Streamline-Simple-Icons (1).svg" width="48" height="48" alt="ASP.NET Core" />
       <br>Langchain
     </td>
   </tr>
    <tr>
     <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=redis" width="48" height="48" alt="Redis" />
+        <img src="image/NumPy.svg" width="48" height="48" alt="Redis" />
       <br>Numpy
     </td>
         <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=postman" width="48" height="48" alt="Postman" />
-      <br>Skitlearn
+        <img src="image/Scikit_learn_logo_small.svg" width="48" height="48" alt="Postman" />
+      <br>Scikitlearn
     </td>
             <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=linux" width="48" height="48" alt="Linux" />
+        <img src="image/Keras.svg" width="48" height="48" alt="Linux" />
       <br>keras
     </td>
     <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=dart" width="48" height="48" alt="dart" />
+        <img src="image/Pandas.svg" width="48" height="48" alt="dart" />
       <br>pandas
     </td>
     <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=rabbitmq" width="48" height="48" alt="dart" />
-      <br>collab
+        <img src="https://techstack-generator.vercel.app/aws-icon.svg" width="48" height="48" alt="dart" />
+      <br>AWS
     </td>
     <td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=sentry" width="48" height="48" alt="dart" />
-      <br>mysql
+        <img src="https://techstack-generator.vercel.app/mysql-icon.svg" width="48" height="48" alt="dart" />
+      <br>Mysql
     </td>
     <td align="center" width="96">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Celery_logo.png" width="48" height="48" alt="dart" />
-      <br>java
+        <img src="https://techstack-generator.vercel.app/java-icon.svg" width="48" height="48" alt="dart" />
+      <br>Java
     </td>
     <td align="center" width="96">
-        <img src="https://docusaurus.io/img/docusaurus_keytar.svg" width="48" height="48" alt="dart" />
-      <br>langgraph
+        <img src="image/langgraph-color (1).svg" width="48" height="48" alt="dart" />
+      <br>lang graph
     </td>
     <td align="center" width="96">
         <img src="dialogflow.svg" width="40" height="40" alt="dart" />
