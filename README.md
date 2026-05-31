@@ -1,4 +1,4 @@
-<img src="images/svg/header_fr.svg"></img>
+<img src="header.svg"></img>
 
 <table align="right">
  <tr><td><a href="README.md"><img src="images/us-flag.png" height="13"> English</a></td></tr>
