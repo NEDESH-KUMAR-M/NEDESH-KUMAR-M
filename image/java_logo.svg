@@ -1,0 +1,69 @@
+<svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>Java Logo</title>
+<desc>Animated Java coffee cup logo</desc>
+
+<defs>
+  <linearGradient id="cupgrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#f89820"/>
+    <stop offset="100%" stop-color="#e76f00"/>
+  </linearGradient>
+  <linearGradient id="flamegrad" x1="0%" y1="100%" x2="0%" y2="0%">
+    <stop offset="0%" stop-color="#e76f00"/>
+    <stop offset="50%" stop-color="#f89820"/>
+    <stop offset="100%" stop-color="#ffd54f"/>
+  </linearGradient>
+</defs>
+
+<!-- Steam wisps above cup -->
+<g opacity="0.85">
+  <!-- Steam 1 -->
+  <path d="M7.2,5.5 C7.2,5.5 6.5,4.2 7.2,3.2 C7.9,2.2 7.2,1.2 7.2,1.2" 
+    fill="none" stroke="#5b9bd5" stroke-width="0.7" stroke-linecap="round" opacity="0">
+    <animate attributeName="opacity" values="0;0.7;0;0;0" dur="2.4s" repeatCount="indefinite" begin="0s"/>
+    <animateTransform attributeName="transform" type="translate" values="0,0;0,-1.5;0,-3" dur="2.4s" repeatCount="indefinite" begin="0s"/>
+  </path>
+  <!-- Steam 2 -->
+  <path d="M10,5 C10,5 9.3,3.8 10,2.8 C10.7,1.8 10,0.8 10,0.8"
+    fill="none" stroke="#5b9bd5" stroke-width="0.7" stroke-linecap="round" opacity="0">
+    <animate attributeName="opacity" values="0;0;0.7;0;0" dur="2.4s" repeatCount="indefinite" begin="0.6s"/>
+    <animateTransform attributeName="transform" type="translate" values="0,0;0,-1.5;0,-3" dur="2.4s" repeatCount="indefinite" begin="0.6s"/>
+  </path>
+  <!-- Steam 3 -->
+  <path d="M12.8,5.5 C12.8,5.5 12.1,4.2 12.8,3.2 C13.5,2.2 12.8,1.2 12.8,1.2"
+    fill="none" stroke="#5b9bd5" stroke-width="0.7" stroke-linecap="round" opacity="0">
+    <animate attributeName="opacity" values="0;0;0;0.7;0" dur="2.4s" repeatCount="indefinite" begin="1.2s"/>
+    <animateTransform attributeName="transform" type="translate" values="0,0;0,-1.5;0,-3" dur="2.4s" repeatCount="indefinite" begin="1.2s"/>
+  </path>
+</g>
+
+<!-- Cup body -->
+<g>
+  <!-- Main cup shape -->
+  <path d="M5.5,7 L6.2,16.5 Q6.2,17 6.8,17 L13.2,17 Q13.8,17 13.8,16.5 L14.5,7 Z"
+    fill="url(#cupgrad)">
+    <animate attributeName="fill" values="url(#cupgrad);url(#cupgrad);url(#cupgrad)" dur="3s" repeatCount="indefinite"/>
+  </path>
+  <!-- Cup rim -->
+  <rect x="5.2" y="6.5" width="9.6" height="1.2" rx="0.6" fill="#c85000"/>
+  <!-- Handle -->
+  <path d="M14.2,9.5 Q17,9.5 17,11.5 Q17,13.5 14.2,13.5"
+    fill="none" stroke="#c85000" stroke-width="1.2" stroke-linecap="round"/>
+  <!-- Coffee liquid inside -->
+  <path d="M6.5,8.8 L7,15.8 Q7,16.2 7.4,16.2 L12.6,16.2 Q13,16.2 13,15.8 L13.5,8.8 Z"
+    fill="#3e1a00" opacity="0.55"/>
+  <!-- Coffee surface shine -->
+  <ellipse cx="10" cy="9.2" rx="2.8" ry="0.5" fill="#6b3000" opacity="0.4"/>
+</g>
+
+<!-- Saucer -->
+<ellipse cx="10" cy="17.5" rx="5.5" ry="1" fill="#c85000" opacity="0.85"/>
+<ellipse cx="10" cy="17.3" rx="4.5" ry="0.5" fill="#e07000" opacity="0.5"/>
+
+<!-- Glow pulse behind logo -->
+<ellipse cx="10" cy="12" rx="7" ry="7" fill="#f89820" opacity="0">
+  <animate attributeName="opacity" values="0;0.08;0" dur="2s" repeatCount="indefinite"/>
+  <animate attributeName="rx" values="6;9;6" dur="2s" repeatCount="indefinite"/>
+  <animate attributeName="ry" values="6;9;6" dur="2s" repeatCount="indefinite"/>
+</ellipse>
+
+</svg>
