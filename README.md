@@ -128,7 +128,7 @@ Welcome to my GitHub — I'm Nedesh Kumar M 👋, a 4th-year AI & DS undergrad  
       <br>langgraph
     </td>
     <td align="center" width="96">
-        <img src="https://bruhin.software/img/logos/pytest.svg" width="40" height="40" alt="dart" />
+        <img src="dialogflow.svg" width="40" height="40" alt="dart" />
       <br>Dialogflow
     </td>
   </tr>
