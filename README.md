@@ -1,4 +1,19 @@
 <img src="image/nedesh_elite_banner.svg"></img>
+<a href="https://www.instagram.com/nedesh_personal_/">
+  <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white">
+</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://www.linkedin.com/in/nedesh-kumar-m">
+  <img src="https://img.shields.io/badge/LinkedIn-%231DA1F2.svg?style=for-the-badge&logo=Linkedin&logoColor=white">
+</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://leetcode.com/u/NEDESH_KUMAR_M/">
+  <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white">
+</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="mailto:nedeshkumar.m@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white">
+</a>
 
 <p></p>
 <p align="justify">
@@ -129,4 +144,7 @@ Welcome to my GitHub — I'm Nedesh Kumar M 👋, a final-year AI & DS undergrad
  <tr>
  </tr>
 </table>
+
+
+
 
