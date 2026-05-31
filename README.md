@@ -1,4 +1,10 @@
-<img src="header.svg"></img>
+<div align="center">
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=60&duration=3000&pause=1000&color=00FF9D&background=0D111700&center=true&vCenter=true&width=1000&height=120&lines=NEDESH+KUMAR+M)](https://git.io/typing-svg)
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=18&duration=2000&pause=800&color=4ADE80&background=0D111700&center=true&vCenter=true&width=1000&height=40&lines=Software+Engineer;Code+Craftsman;Build+%26+Ship;Problem+Solver)](https://git.io/typing-svg)
+
+</div>
 
 <table align="right">
  <tr><td><a href="README.md"><img src="images/us-flag.png" height="13"> English</a></td></tr>
