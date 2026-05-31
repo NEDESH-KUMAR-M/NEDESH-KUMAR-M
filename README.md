@@ -1,20 +1,21 @@
 <img src="image/nedesh_elite_banner.svg"></img>
-<a href="https://www.instagram.com/nedesh_personal_/">
-  <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white">
-</a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://www.linkedin.com/in/nedesh-kumar-m">
-  <img src="https://img.shields.io/badge/LinkedIn-%231DA1F2.svg?style=for-the-badge&logo=Linkedin&logoColor=white">
-</a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://leetcode.com/u/NEDESH_KUMAR_M/">
-  <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white">
-</a>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="mailto:nedeshkumar.m@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white">
-</a>
-
+<p align="center">
+  <a href="https://www.instagram.com/nedesh_personal_/">
+    <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/nedesh-kumar-m">
+    <img src="https://img.shields.io/badge/LinkedIn-%231DA1F2.svg?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://leetcode.com/u/NEDESH_KUMAR_M/">
+    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="mailto:nedeshkumar.m@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+</p>
 <p></p>
 <p align="justify">
 Welcome to my GitHub — I'm Nedesh Kumar M 👋, a final-year AI & DS undergrad  who's deeply, embarrassingly, and unapologetically obsessed with AI & Machine Learning — and it's a trait I was built with. For me, learning isn't a habit I built — it's the way I'm wired. And I've solved 800+ LeetCode problems down, and honestly? I'm still just getting started...
