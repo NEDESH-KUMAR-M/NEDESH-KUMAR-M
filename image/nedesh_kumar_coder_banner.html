@@ -1,0 +1,104 @@
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&family=Share+Tech+Mono&display=swap');
+*{margin:0;padding:0;box-sizing:border-box}
+canvas{display:block}
+#wrap{position:relative;width:100%;height:200px;overflow:hidden;background:#050a0e;border-radius:10px}
+#rain{position:absolute;top:0;left:0;width:100%;height:200px;opacity:0.18}
+#content{position:absolute;top:0;left:0;width:100%;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px}
+.topbar{display:flex;gap:8px;align-items:center;margin-bottom:4px}
+.dot{width:8px;height:8px;border-radius:50%}
+.d1{background:#ff5f57}.d2{background:#febc2e}.d3{background:#28c840}
+.prompt{font-family:'Share Tech Mono',monospace;font-size:11px;color:#1e3a2f;letter-spacing:2px}
+#name{font-family:'Orbitron',monospace;font-weight:900;font-size:48px;letter-spacing:2px;background:linear-gradient(90deg,#00ffe7,#fff,#a78bfa);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;animation:nameIn 1s cubic-bezier(.22,1,.36,1) both, shimmer 4s ease-in-out 1s infinite}
+@keyframes nameIn{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+@keyframes shimmer{0%,100%{filter:hue-rotate(0deg)}50%{filter:hue-rotate(30deg)}}
+#tagline{font-family:'Share Tech Mono',monospace;font-size:13px;color:#4ade80;letter-spacing:5px;animation:fadeUp 0.8s ease 0.5s both}
+@keyframes fadeUp{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+#tags{display:flex;gap:8px;animation:fadeUp 0.8s ease 0.9s both}
+.tag{font-family:'Share Tech Mono',monospace;font-size:10px;padding:3px 10px;border-radius:3px;border:1px solid;letter-spacing:1px}
+.t1{color:#00ffe7;border-color:#00ffe720;background:#00ffe708}
+.t2{color:#a78bfa;border-color:#a78bfa20;background:#a78bfa08}
+.t3{color:#4ade80;border-color:#4ade8020;background:#4ade8008}
+.t4{color:#fb923c;border-color:#fb923c20;background:#fb923c08}
+#line{width:0;height:1px;background:linear-gradient(90deg,transparent,#00ffe7,#a78bfa,transparent);animation:expand 1.2s ease 0.3s both;align-self:stretch;margin:0 40px}
+@keyframes expand{from{width:0;opacity:0}to{width:100%;opacity:1}}
+#cursor{display:inline-block;width:3px;height:42px;background:#00ffe7;margin-left:6px;vertical-align:middle;animation:blink 1s steps(1) infinite;border-radius:1px}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
+.corner{position:absolute;width:16px;height:16px;border-color:#00ffe7;border-style:solid;opacity:0.5}
+.tl{top:10px;left:10px;border-width:1.5px 0 0 1.5px}
+.tr{top:10px;right:10px;border-width:1.5px 1.5px 0 0}
+.bl{bottom:10px;left:10px;border-width:0 0 1.5px 1.5px}
+.br{bottom:10px;right:10px;border-width:0 1.5px 1.5px 0}
+#statusbar{position:absolute;bottom:10px;left:50%;transform:translateX(-50%);font-family:'Share Tech Mono',monospace;font-size:9px;color:#1a3a2a;letter-spacing:3px}
+#particles{position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none}
+</style>
+
+<div id="wrap">
+  <canvas id="rain"></canvas>
+  <svg id="particles" viewBox="0 0 680 200" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="60" cy="30" r="1.5" fill="#00ffe7" opacity="0.5"><animate attributeName="cy" values="30;22;30" dur="5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.5;1;0.5" dur="5s" repeatCount="indefinite"/></circle>
+    <circle cx="620" cy="40" r="1.5" fill="#a78bfa" opacity="0.5"><animate attributeName="cy" values="40;32;40" dur="7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.5;1;0.5" dur="7s" repeatCount="indefinite"/></circle>
+    <circle cx="640" cy="160" r="1.2" fill="#4ade80" opacity="0.4"><animate attributeName="cy" values="160;153;160" dur="4s" repeatCount="indefinite"/></circle>
+    <circle cx="40" cy="170" r="1.2" fill="#a78bfa" opacity="0.4"><animate attributeName="cy" values="170;163;170" dur="6s" repeatCount="indefinite"/></circle>
+    <line x1="0" y1="40" x2="680" y2="40" stroke="#00ffe7" stroke-width="0.3" opacity="0.04"/>
+    <line x1="0" y1="100" x2="680" y2="100" stroke="#00ffe7" stroke-width="0.3" opacity="0.04"/>
+    <line x1="0" y1="160" x2="680" y2="160" stroke="#00ffe7" stroke-width="0.3" opacity="0.04"/>
+    <line x1="170" y1="0" x2="170" y2="200" stroke="#00ffe7" stroke-width="0.3" opacity="0.04"/>
+    <line x1="340" y1="0" x2="340" y2="200" stroke="#00ffe7" stroke-width="0.3" opacity="0.04"/>
+    <line x1="510" y1="0" x2="510" y2="200" stroke="#00ffe7" stroke-width="0.3" opacity="0.04"/>
+  </svg>
+  <div class="corner tl"></div>
+  <div class="corner tr"></div>
+  <div class="corner bl"></div>
+  <div class="corner br"></div>
+  <div id="content">
+    <div class="topbar">
+      <div class="dot d1"></div><div class="dot d2"></div><div class="dot d3"></div>
+      <span class="prompt">~/nedesh-kumar-m $</span>
+    </div>
+    <div style="display:flex;align-items:center">
+      <div id="name">NEDESH KUMAR M</div><div id="cursor"></div>
+    </div>
+    <div id="line"></div>
+    <div id="tagline">AI ENTHUSIAST &amp; CODER</div>
+    <div id="tags">
+      <span class="tag t1"># Machine Learning</span>
+      <span class="tag t2"># Neural Networks</span>
+      <span class="tag t3"># Python</span>
+      <span class="tag t4"># LLMs</span>
+    </div>
+  </div>
+  <div id="statusbar">// TURNING IDEAS INTO INTELLIGENCE</div>
+</div>
+
+<script>
+const canvas = document.getElementById('rain');
+const ctx = canvas.getContext('2d');
+function resize() {
+  canvas.width = canvas.offsetWidth;
+  canvas.height = canvas.offsetHeight;
+}
+resize();
+const chars = 'アイウエオカキクケコサシスセソタチツテトナニヌネノ01ハヒフヘホマミムメモヤユヨラリルレロワヲン';
+const cols = Math.floor(canvas.width / 14);
+const drops = Array(cols).fill(1);
+function draw() {
+  ctx.fillStyle = 'rgba(5,10,14,0.05)';
+  ctx.fillRect(0,0,canvas.width,canvas.height);
+  ctx.font = '12px Share Tech Mono, monospace';
+  for (let i = 0; i < drops.length; i++) {
+    const ch = chars[Math.floor(Math.random()*chars.length)];
+    const x = i * 14;
+    const y = drops[i] * 14;
+    const progress = drops[i] / (canvas.height / 14);
+    if (progress < 0.3) ctx.fillStyle = '#00ffe7';
+    else if (progress < 0.6) ctx.fillStyle = '#0a5a4a';
+    else ctx.fillStyle = '#052010';
+    ctx.fillText(ch, x, y);
+    if (y > canvas.height && Math.random() > 0.975) drops[i] = 0;
+    drops[i]++;
+  }
+}
+setInterval(draw, 60);
+</script>

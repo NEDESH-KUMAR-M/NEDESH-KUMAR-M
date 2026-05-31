@@ -1,0 +1,200 @@
+<svg width="830" height="220" viewBox="0 0 830 220" xmlns="http://www.w3.org/2000/svg" role="img">
+  <title>Nedesh Kumar M — AI Enthusiast &amp; Coder</title>
+  <desc>Elite animated GitHub banner for Nedesh Kumar M</desc>
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&amp;family=Share+Tech+Mono&amp;display=swap');
+      .nm{font-family:'Orbitron',monospace;font-weight:900;font-size:56px;letter-spacing:3px}
+      .sub{font-family:'Share Tech Mono',monospace;font-size:13px;letter-spacing:6px}
+      .tg{font-family:'Share Tech Mono',monospace;font-size:10px;letter-spacing:1px}
+      .top{font-family:'Share Tech Mono',monospace;font-size:10px;letter-spacing:3px}
+      .bot{font-family:'Share Tech Mono',monospace;font-size:9px;letter-spacing:3px}
+
+      .blink{animation:blink 1s steps(1) infinite}
+      @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
+
+      .hue{animation:hue 6s linear infinite}
+      @keyframes hue{0%,100%{filter:hue-rotate(0deg)}50%{filter:hue-rotate(40deg)}}
+
+      .scan{animation:scan 4s linear infinite}
+      @keyframes scan{0%{transform:translateY(-4px)}100%{transform:translateY(224px)}}
+
+      .pulse{animation:pulse 2s ease-in-out infinite}
+      @keyframes pulse{0%,100%{opacity:0.35}50%{opacity:1}}
+
+      .fd1{animation:fd 5s ease-in-out infinite}
+      .fd2{animation:fd 7s ease-in-out infinite reverse}
+      .fd3{animation:fd 4.5s ease-in-out 1s infinite}
+      @keyframes fd{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+
+      .nin{animation:nin 0.9s cubic-bezier(.22,1,.36,1) both}
+      @keyframes nin{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
+      .sin{animation:nin 0.9s cubic-bezier(.22,1,.36,1) 0.5s both}
+      .tin{animation:nin 0.8s cubic-bezier(.22,1,.36,1) 0.9s both}
+      .lin{animation:lin 1.3s ease 0.3s both}
+      @keyframes lin{from{width:0;opacity:0}to{width:640px;opacity:1}}
+
+      .rain{font-family:'Share Tech Mono',monospace;font-size:13px;fill:#00ffe7}
+      .r1{animation:r 2.8s linear infinite}
+      .r2{animation:r 3.5s linear 0.5s infinite}
+      .r3{animation:r 2.4s linear 1s infinite}
+      .r4{animation:r 3.8s linear 0.3s infinite}
+      .r5{animation:r 3.1s linear 1.3s infinite}
+      .r6{animation:r 2.6s linear 0.7s infinite}
+      .r7{animation:r 4.2s linear 1.6s infinite}
+      .r8{animation:r 2.9s linear 0.2s infinite}
+      .r9{animation:r 3.4s linear 0.9s infinite}
+      .r10{animation:r 2.7s linear 1.8s infinite}
+      .r11{animation:r 3.6s linear 0.4s infinite}
+      .r12{animation:r 2.3s linear 1.1s infinite}
+      .r13{animation:r 4.0s linear 0.6s infinite}
+      .r14{animation:r 3.0s linear 1.4s infinite}
+      @keyframes r{0%{transform:translateY(-130px);opacity:0}8%{opacity:0.85}75%{opacity:0.4}100%{transform:translateY(230px);opacity:0}}
+
+      .orb{animation:orb 18s linear infinite}
+      @keyframes orb{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
+
+      .ripple{animation:ripple 3s ease-out infinite}
+      .ripple2{animation:ripple 3s ease-out 1.5s infinite}
+      @keyframes ripple{0%{r:60;opacity:0.2}100%{r:200;opacity:0}}
+
+      .connline{animation:connline 4s ease-in-out infinite}
+      @keyframes connline{0%,100%{opacity:0.06}50%{opacity:0.15}}
+    </style>
+    <linearGradient id="ng" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#00ffe7"><animate attributeName="stop-color" values="#00ffe7;#ffffff;#a78bfa;#00ffe7" dur="6s" repeatCount="indefinite"/></stop>
+      <stop offset="50%"  stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#a78bfa"><animate attributeName="stop-color" values="#a78bfa;#c05cff;#a78bfa" dur="6s" repeatCount="indefinite"/></stop>
+    </linearGradient>
+    <linearGradient id="lg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#00ffe7" stop-opacity="0"/>
+      <stop offset="25%"  stop-color="#00ffe7"/>
+      <stop offset="75%"  stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#00ffe7" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#00ffe7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- background -->
+  <rect width="830" height="220" fill="#000" rx="12"/>
+  <rect width="830" height="220" fill="url(#glow)" rx="12"/>
+
+  <!-- border -->
+  <rect width="829" height="219" x="0.5" y="0.5" fill="none" stroke="#0ff" stroke-width="0.5" stroke-opacity="0.2" rx="12"/>
+
+  <!-- grid -->
+  <g stroke="#00ffe7" stroke-width="0.4" opacity="0.03">
+    <line x1="0" y1="55"  x2="830" y2="55"/>
+    <line x1="0" y1="110" x2="830" y2="110"/>
+    <line x1="0" y1="165" x2="830" y2="165"/>
+    <line x1="100" y1="0"  x2="100" y2="220"/>
+    <line x1="207" y1="0"  x2="207" y2="220"/>
+    <line x1="415" y1="0"  x2="415" y2="220"/>
+    <line x1="623" y1="0"  x2="623" y2="220"/>
+    <line x1="730" y1="0"  x2="730" y2="220"/>
+  </g>
+
+  <!-- scan line -->
+  <rect class="scan" x="0" y="-3" width="830" height="3" fill="rgba(0,255,231,0.07)" rx="0"/>
+
+  <!-- matrix rain -->
+  <text class="rain r1"  x="18"  y="0">ア</text>
+  <text class="rain r2"  x="52"  y="0">01</text>
+  <text class="rain r3"  x="90"  y="0">ウ</text>
+  <text class="rain r4"  x="128" y="0">カ</text>
+  <text class="rain r5"  x="172" y="0">10</text>
+  <text class="rain r6"  x="218" y="0">ス</text>
+  <text class="rain r7"  x="262" y="0">ナ</text>
+  <text class="rain r8"  x="308" y="0">11</text>
+  <text class="rain r9"  x="356" y="0">ハ</text>
+  <text class="rain r10" x="402" y="0">マ</text>
+  <text class="rain r11" x="450" y="0">00</text>
+  <text class="rain r12" x="498" y="0">ラ</text>
+  <text class="rain r13" x="546" y="0">ニ</text>
+  <text class="rain r14" x="594" y="0">01</text>
+
+  <!-- ripple rings from center -->
+  <circle class="ripple"  cx="415" cy="110" r="60" fill="none" stroke="#00ffe7" stroke-width="0.8"/>
+  <circle class="ripple2" cx="415" cy="110" r="60" fill="none" stroke="#a78bfa" stroke-width="0.8"/>
+
+  <!-- orbiting ring -->
+  <g class="orb" style="transform-origin:415px 110px">
+    <ellipse cx="415" cy="110" rx="370" ry="90" fill="none" stroke="#00ffe7" stroke-width="0.4" stroke-dasharray="5 12" opacity="0.12"/>
+  </g>
+
+  <!-- corner brackets -->
+  <path d="M14,32 L14,14 L32,14" fill="none" stroke="#00ffe7" stroke-width="1.8" opacity="0.6"/>
+  <path d="M798,14 L816,14 L816,32" fill="none" stroke="#00ffe7" stroke-width="1.8" opacity="0.6"/>
+  <path d="M14,188 L14,206 L32,206" fill="none" stroke="#00ffe7" stroke-width="1.8" opacity="0.6"/>
+  <path d="M798,206 L816,206 L816,188" fill="none" stroke="#00ffe7" stroke-width="1.8" opacity="0.6"/>
+
+  <!-- corner tick marks -->
+  <line x1="40" y1="14" x2="60" y2="14" stroke="#00ffe7" stroke-width="0.8" opacity="0.3"/>
+  <line x1="770" y1="14" x2="790" y2="14" stroke="#00ffe7" stroke-width="0.8" opacity="0.3"/>
+  <line x1="40" y1="206" x2="60" y2="206" stroke="#00ffe7" stroke-width="0.8" opacity="0.3"/>
+
+  <!-- floating particles -->
+  <g class="fd1"><circle cx="780" cy="28"  r="2"   fill="#00ffe7" opacity="0.55"/></g>
+  <g class="fd2"><circle cx="800" cy="50"  r="1.5" fill="#a78bfa" opacity="0.55"/></g>
+  <g class="fd3"><circle cx="50"  cy="192" r="1.5" fill="#4ade80" opacity="0.5"/></g>
+  <g class="fd1"><circle cx="30"  cy="170" r="1.2" fill="#00ffe7" opacity="0.4"/></g>
+  <g class="fd2"><circle cx="800" cy="190" r="1.8" fill="#a78bfa" opacity="0.4"/></g>
+  <g class="fd3"><circle cx="415" cy="20"  r="1.5" fill="#00ffe7" opacity="0.35"/></g>
+
+  <!-- particle connection lines -->
+  <line class="connline" x1="780" y1="28"  x2="800" y2="50"  stroke="#00ffe7" stroke-width="0.5"/>
+  <line class="connline" x1="50"  y1="192" x2="30"  y2="170" stroke="#00ffe7" stroke-width="0.5"/>
+
+  <!-- top system label -->
+  <text x="415" y="28" text-anchor="middle" class="top" fill="#0a2a1a">[ INITIALIZING // NEDESH.SYS // v2.0 ]</text>
+
+  <!-- main name -->
+  <g class="nin">
+    <text x="415" y="107" text-anchor="middle" class="nm hue" fill="url(#ng)">NEDESH KUMAR M</text>
+    <!-- blinking cursor -->
+    <rect x="706" y="62" width="3" height="52" rx="1" fill="#00ffe7" class="blink"/>
+  </g>
+
+  <!-- divider line -->
+  <rect class="lin" x="95" y="118" height="1" fill="url(#lg)" rx="1"/>
+
+  <!-- pulse dots on divider ends -->
+  <g class="pulse"><circle cx="93"  cy="118" r="3.5" fill="#00ffe7"/></g>
+  <g class="pulse"><circle cx="737" cy="118" r="3.5" fill="#a78bfa"/></g>
+
+  <!-- tagline -->
+  <g class="sin">
+    <text x="415" y="140" text-anchor="middle" class="sub" fill="#4ade80">AI ENTHUSIAST &amp; CODER</text>
+  </g>
+
+  <!-- tags -->
+  <g class="tin">
+    <rect x="98"  y="153" width="107" height="18" rx="3" fill="#00ffe710" stroke="#00ffe720" stroke-width="0.8"/>
+    <text x="151" y="166" text-anchor="middle" class="tg" fill="#00ffe7"># Machine Learning</text>
+
+    <rect x="213" y="153" width="98"  height="18" rx="3" fill="#a78bfa10" stroke="#a78bfa20" stroke-width="0.8"/>
+    <text x="262" y="166" text-anchor="middle" class="tg" fill="#a78bfa"># Neural Networks</text>
+
+    <rect x="319" y="153" width="62"  height="18" rx="3" fill="#4ade8010" stroke="#4ade8020" stroke-width="0.8"/>
+    <text x="350" y="166" text-anchor="middle" class="tg" fill="#4ade80"># Python</text>
+
+    <rect x="389" y="153" width="50"  height="18" rx="3" fill="#fb923c10" stroke="#fb923c20" stroke-width="0.8"/>
+    <text x="414" y="166" text-anchor="middle" class="tg" fill="#fb923c"># LLMs</text>
+
+    <rect x="447" y="153" width="103" height="18" rx="3" fill="#00ffe710" stroke="#00ffe720" stroke-width="0.8"/>
+    <text x="498" y="166" text-anchor="middle" class="tg" fill="#00ffe7"># Deep Learning</text>
+
+    <rect x="558" y="153" width="86"  height="18" rx="3" fill="#a78bfa10" stroke="#a78bfa20" stroke-width="0.8"/>
+    <text x="601" y="166" text-anchor="middle" class="tg" fill="#a78bfa"># Open Source</text>
+  </g>
+
+  <!-- side hex decorations -->
+  <polygon points="36,100 44,96 52,100 52,108 44,112 36,108" fill="none" stroke="#00ffe7" stroke-width="0.8" opacity="0.3"/>
+  <polygon points="778,100 786,96 794,100 794,108 786,112 778,108" fill="none" stroke="#a78bfa" stroke-width="0.8" opacity="0.3"/>
+
+  <!-- bottom tagline -->
+  <text x="415" y="210" text-anchor="middle" class="bot" fill="#0a2a1a">// TURNING IDEAS INTO INTELLIGENCE //</text>
+</svg>
