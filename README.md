@@ -24,9 +24,8 @@
 </p>
 <p></p>
 <p align="justify">
-Welcome to my GitHub — I'm Nedesh Kumar M 👋, a final-year AI & DS undergrad  who's deeply, embarrassingly, and unapologetically obsessed with AI & Machine Learning — and it's a trait I was built with. For me, learning isn't a habit I built — it's the way I'm wired. And I've solved 800+ LeetCode problems down, and honestly? I'm still just getting started...
+Welcome to my GitHub — I'm Nedesh Kumar M <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="20" style="vertical-align: middle;" />, a final-year AI & DS undergrad who's deeply, embarrassingly, and unapologetically obsessed with AI & Machine Learning — and it's a trait I was built with. For me, learning isn't a habit I built — it's the way I'm wired. And I've solved 800+ LeetCode problems down, and honestly? I'm still just getting started...
 </p>
-
 ## My favorite tools and technologies ⚙️
 
 > Tools and technologies that I have worked with and am interested in
@@ -151,7 +150,55 @@ Welcome to my GitHub — I'm Nedesh Kumar M 👋, a final-year AI & DS undergrad
  <tr>
  </tr>
 </table>
+---
 
+<details>
+<summary>📊 GitHub Stats — click to expand</summary>
+<br>
+<div align="center">
 
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=NEDESH-KUMAR-M&theme=radical" />
 
+<br><br>
 
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=NEDESH-KUMAR-M&theme=radical" />
+&nbsp;&nbsp;
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=NEDESH-KUMAR-M&theme=radical" />
+
+<br><br>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=NEDESH-KUMAR-M&theme=radical" />
+&nbsp;&nbsp;
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=NEDESH-KUMAR-M&theme=radical&utcOffset=5.5" />
+
+<br><br>
+
+<img src="https://streak-stats.demolab.com?user=NEDESH-KUMAR-M&theme=radical&hide_border=true&background=0D1117&ring=00FF9D&fire=00FF9D&currStreakLabel=00FF9D" />
+
+</div>
+</details>
+
+---
+
+<div align="center">
+
+### 🤝 Let's Connect!
+
+<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="50" />
+
+I love connecting with different people — if you want to say hi, I'll be happy to meet you! 😄  
+Whether you want to talk **AI, ML, code**, or just vibe — my DMs are always open. 🚀💬
+
+<br>
+
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://www.instagram.com/nedesh_personal_/)
+&nbsp;&nbsp;
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%231DA1F2.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nedesh-kumar-m)
+&nbsp;&nbsp;
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nedeshkumar.m@gmail.com)
+
+<br>
+
+![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=NEDESH-KUMAR-M.NEDESH-KUMAR-M)
+
+</div>
