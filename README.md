@@ -26,6 +26,8 @@
 <p align="justify">
 Welcome to my GitHub — I'm Nedesh Kumar M <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="18" style="vertical-align: middle;" />, a final-year AI & DS undergrad who's deeply, embarrassingly, and unapologetically obsessed with AI & Machine Learning — and it's a trait I was built with. For me, learning isn't a habit I built — it's the way I'm wired. And I've solved 800+ LeetCode problems down, and honestly? I'm still just getting started...
 </p>
+
+
 ## My favorite tools and technologies ⚙️
 
 > Tools and technologies that I have worked with and am interested in
@@ -150,7 +152,7 @@ Welcome to my GitHub — I'm Nedesh Kumar M <img src="https://media.giphy.com/me
  <tr>
  </tr>
 </table>
-<br><br>
+
 <details>
 <summary>📊 GitHub Stats — click to expand</summary>
 <br>
