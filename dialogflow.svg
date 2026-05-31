@@ -1,0 +1,45 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="df-bg" cx="50%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#FF9800"/>
+      <stop offset="100%" stop-color="#E65100"/>
+    </radialGradient>
+  </defs>
+
+  <!-- outer circle base -->
+  <circle cx="20" cy="20" r="18" fill="url(#df-bg)"/>
+
+  <!-- pulse ring animation -->
+  <circle cx="20" cy="20" r="18" fill="none" stroke="#FF9800" stroke-width="1.5" opacity="0.5">
+    <animate attributeName="r" values="18;26" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;0" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- bobbing group -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0,0;0,-4;0,0" dur="2.8s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1"/>
+
+    <!-- main chat bubble -->
+    <ellipse cx="20" cy="19" rx="10" ry="8.5" fill="white" opacity="0.95"/>
+    <polygon points="14,26 18,23.5 16,28" fill="white" opacity="0.95"/>
+
+    <!-- typing dot 1 -->
+    <circle cx="15.5" cy="19" r="2" fill="#E65100">
+      <animate attributeName="r" values="2;2.6;2" dur="1.4s" begin="0s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- typing dot 2 -->
+    <circle cx="20" cy="19" r="2" fill="#E65100">
+      <animate attributeName="r" values="2;2.6;2" dur="1.4s" begin="0.2s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- typing dot 3 -->
+    <circle cx="24.5" cy="19" r="2" fill="#E65100">
+      <animate attributeName="r" values="2;2.6;2" dur="1.4s" begin="0.4s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- small reply bubble top-right -->
+    <ellipse cx="25" cy="6" rx="4.5" ry="4" fill="#FF6D00" opacity="0.9"/>
+    <polygon points="21,10 24,9 22,13" fill="#FF6D00" opacity="0.9"/>
+  </g>
+</svg>
