@@ -1,4 +1,4 @@
-<img src="nedesh_kumar_final.svg"></img>
+<img src="image/nedesh_elite_banner.svg"></img>
 <p align="center">
   <a href="https://www.instagram.com/nedesh_personal_/">
     <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white" />
